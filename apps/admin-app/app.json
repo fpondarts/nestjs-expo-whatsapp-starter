@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "My App Admin",
+    "slug": "my-app-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "my-app-admin",
+    "userInterfaceStyle": "automatic",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.example.myapp.admin" },
+    "android": { "package": "com.example.myapp.admin" },
+    "web": { "bundler": "metro", "output": "static" },
+    "plugins": ["expo-router"]
+  }
+}

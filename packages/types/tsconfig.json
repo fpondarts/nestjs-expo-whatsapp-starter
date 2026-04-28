@@ -1,0 +1,10 @@
+{
+  "extends": "@repo/config/tsconfig/base",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts"]
+}

@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "My App",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "my-app",
+    "userInterfaceStyle": "automatic",
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.example.myapp" },
+    "android": { "package": "com.example.myapp" },
+    "web": { "bundler": "metro", "output": "static" },
+    "plugins": ["expo-router"]
+  }
+}
